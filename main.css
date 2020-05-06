@@ -38,6 +38,7 @@ a{
 
 
 @media(max-width: 601px){
+	h1{color:cyan;}
 
 	body{background-color:purple}
 }
