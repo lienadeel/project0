@@ -1,0 +1,45 @@
+ul {
+  font-size: 20px;
+  color: red;
+}
+
+ol {
+  font-size: 18px;
+  color: red;
+}
+
+div {
+  font-size: 22px;
+}
+div p {
+  margin: 5px;
+  color: gold;
+  font-size: 11px;
+}
+div ul {
+  color: pink;
+}
+
+.draw, .lose, .win {
+  font-family: serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 15px;
+  margin: 15px;
+  margin-bottom: 25px;
+}
+
+.win {
+  background-color: green;
+}
+
+.lose {
+  background-color: red;
+}
+
+.draw {
+  background-color: purple;
+}
+
+/*# sourceMappingURL=variables.css.map */

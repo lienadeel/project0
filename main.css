@@ -1,0 +1,50 @@
+
+nav{display:inline-block;margin: 20px;}
+h1{text-align: center;color: green; text-shadow:1px 3px 4px grey}
+dan{background-color: magenta; box-shadow: 1px 5px 5px grey; border-radius: 10px}
+li{background-color:orange;padding: 7px; margin: 15px;border-radius: 5px;float: left }
+table{margin: 3px; border: 3px; border-collapse: collapse;width:100%}
+th{font-size:2vw; background-color: orange; color: green}
+th, td{padding: 3px; text-align: center; border:2px solid purple;}
+a>img{box-shadow: 2px 2px 10px black;
+	background-color:silver;
+	border-radius: 7px;
+	height:100px;
+	padding: 5px;
+}
+
+dan{color: gold;
+font-size:20px;
+padding: 30;
+display:inline-block;}
+
+
+
+.row>div{padding: 7px;
+background-color: magenta;
+border:2px solid black;}
+
+.montainer{
+	margin: 7px;
+	padding: 5px;}
+a{
+	box-shadow:4px 3px 5px solid black;
+	height: 10px;
+
+}
+.skillish{box-shadow: 1px 2px 3px black; padding-right: 5vw}
+
+#bottom{float: left; clear:left; font-size: 9px}
+
+
+@media(max-width: 601px){
+
+	body{background-color:magenta}
+}
+
+@media(min-width: 600px){
+	body{padding: 20px;
+		background-color: cyan;}
+			
+	}
+}
