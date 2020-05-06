@@ -39,7 +39,7 @@ a{
 
 @media(max-width: 601px){
 
-	body{background-color:magenta}
+	body{background-color:purple}
 }
 
 @media(min-width: 600px){
