@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Possessions</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/static/main.css">
+	<link rel="stylesheet" type="text/css" href="/static/variables.css">
+</head>
+<body>
+	<nav>
+	<ul>
+	<li><a href="{{url_for('index')}}">Home</a></li>
+	<li><a href="{{url_for('like')}}">Likes</a></li>
+	<li><a href="{{url_for('skill')}}">Skills</a></li>
+	<li><a href="{{url_for('possess')}}">Possessions</a></li>
+	</ul>
+	</nav>
+	<header><h1>My Possessions</h1></header>
+
+	
+	<table>
+		<tbody>
+			<th>Film Equiptment</th>
+			<th>Musical Instruments</th>
+			<th>Modes of Transportation</th>
+		</tbody>
+		<tr>
+			<td>Panasonic GH5</td>
+			<td>Lenses(25-106mm)</td>
+			<td>Drone</td>
+		</tr>
+        <tr>
+        	<td>Guitar</td>
+			<td>Drumset</td>
+        	<td>Flute</td>
+        </tr>
+        <tr>
+        	<td>Car</td>
+			<td>Bike</td>
+        	<td>Skateboard</td>
+        </tr>
+
+	</table>
+	<p id="bottom">*All items listed here may be purchased.*</p>
+
+</body>
+</html>
