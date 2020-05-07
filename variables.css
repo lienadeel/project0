@@ -21,7 +21,6 @@ div ul {
 }
 
 .draw, .lose, .win {
-  display: inline;
   font-family: serif;
   font-size: 18px;
   font-weight: bold;
