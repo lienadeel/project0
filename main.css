@@ -5,7 +5,7 @@ dan{background-color: magenta; box-shadow: 1px 5px 5px grey; border-radius: 10px
 li{background-color:orange;padding: 7px; margin: 15px;border-radius: 5px;float: left }
 table{margin: 3px; border: 3px; border-collapse: collapse;width:100%}
 th{font-size:2vw; background-color: orange; color: green}
-th, td{padding: 3px; text-align: center; border:2px solid purple;}
+th, td{padding: 3px; text-align: center; border:2px solid green;}
 a>img{box-shadow: 2px 2px 10px black;
 	background-color:silver;
 	border-radius: 7px;
