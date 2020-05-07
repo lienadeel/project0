@@ -1,5 +1,5 @@
 
-nav{display:inline-block;margin: 10px}
+nav{display:inline;margin: 10px}
 h1{text-align: center;color: green; text-shadow:1px 3px 4px grey}
 dan{background-color: magenta; box-shadow: 1px 5px 5px grey; border-radius: 10px}
 li{background-color:orange;padding: 7px; margin: 15px;border-radius: 5px;float: left }
